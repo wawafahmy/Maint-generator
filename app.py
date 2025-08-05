@@ -70,7 +70,7 @@ else:
     components_html = '<div class="component-affected"><span class="check-icon">✓</span>No components specified</div>'
 
 # Load the HTML template from the file
-html_template = load_html_template("templates/maintenance_email.html")
+html_template = load_html_template("templates/maintenance.html")
 
 # Replace all the placeholders
 final_html = html_template.replace("{title}", title)
